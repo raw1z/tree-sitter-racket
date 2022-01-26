@@ -1,0 +1,15 @@
+{
+  "name": "tree-sitter-racket",
+  "version": "0.0.1",
+  "description": "Tree-sitter parser for Racket",
+  "main": "bindings/node",
+  "scripts": {
+    "generate": "tree-sitter generate",
+    "test": "tree-sitter test"
+  },
+  "author": "Rawane ZOSSOU",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.15.0"
+  }
+}
